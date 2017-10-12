@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<definition>
+    <config>
+        <match type="regexp" pattern="http\:\/\/127\.0\.0\.1\/api\/(.*)" target="http://10.10.0.1:8000/api/$1"/>
+    </config>
+
+    <payload type="json">
+        {
+            "test": "mpp_match(*)"
+        }
+    </payload>
+</definition>
