@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<definition>
+    <config>
+        <match type="regexp" pattern="http\:\/\/services\.example\.org\/users\/profile\/view\/(.*)" target="http://127.0.0.1:8002/users/profile/view/$1"/>
+    </config>
+
+    <!--<payloads>
+        <payload type="json">
+            {
+                "id": "_@mpp_match(*)",
+                "type": "_@mpp_match((user|group))"
+            }
+        </payload>
+    </payloads>-->
+
+</definition>

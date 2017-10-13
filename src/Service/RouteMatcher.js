@@ -21,8 +21,6 @@ class RouteMatcher {
                 let route   = definition.config[routeNum]['match'][0].$;
                 let target = RouteMatcher._match_regexp(route, url);
 
-                console.log(target);
-
                 if (target) {
                     console.info('[RouteMatcher] Matched regexp route for "' + url + '"');
                     return target;
