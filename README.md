@@ -4,6 +4,8 @@ Microservice Public Proxy
 Acts as a firewall-proxy between world and microservices.
 Exposes only specified endpoints, **even is able to filter by JSON payload**.
 
+![schema](./misc/microservice-public-proxy.png)
+
 Example case:
 - You have a http://10.0.1.1:8000/search/{query} endpoint and you want to expose it, but only on specified payload content
 
